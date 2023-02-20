@@ -1,0 +1,100 @@
+@media (min-width:300px){
+    button#addIten {
+        min-width: 15%;
+    }
+
+    button#resetALL {
+        min-width: 25%;
+    }
+
+    input#addTasks {
+        min-width: 50%;
+    }
+
+    button.classTaskRemove {
+        min-width: 15%;
+        margin-top: 4%;
+    }
+    button.ClasstaskEdit {
+        min-width: 15%;
+    }
+
+    input.ClassNewTask {
+        min-width: 50%;
+    }
+    
+}
+
+@media (min-width:600px) {
+    button#addIten {
+        min-width: 10%;
+    }
+
+    button#resetALL {
+        min-width: 10%;
+    }
+
+
+    button.classTaskRemove {
+        min-width: 5%;
+        margin-top: 4%;
+    }
+    button.ClasstaskEdit {
+        min-width: 5%;
+    }
+
+    input.ClassNewTask {
+        min-width: 30%;
+    }
+}
+
+@media (max-width:900px) {
+    main h1#title1 {
+        margin-bottom: -8%;
+    }
+}
+@media (max-width:600px) {
+    main h1#title1 {
+        margin-bottom: -13%;
+    }
+}
+
+@media (max-width:300px){
+    button#addIten {
+        margin-top: 2%;
+        min-width: 30%;
+        margin-bottom: 5%;
+    }
+
+    main h1#title1 {
+        margin-bottom: -15%;
+        font-size:200%;
+        text-align: center;
+
+    }
+    main h1#title2 {
+        font-size:300%;
+        text-align: center;
+
+    }
+
+    button#resetALL {
+        min-width: 30%;
+    }
+
+    input#addTasks {
+        min-width: 70%;
+    }
+
+    button.classTaskRemove {
+        min-width: 20%;
+        margin-bottom: 5%;
+    }
+    button.ClasstaskEdit {
+        min-width: 20%;
+    }
+
+    input.ClassNewTask {
+        min-width: 75%;
+    }
+}

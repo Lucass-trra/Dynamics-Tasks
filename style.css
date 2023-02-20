@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to left,rgb(50, 20, 20,0.6),rgba(0, 0, 0,0.6)),
+    url(./images/papel-de-parede-branco-em-estilo-de-papel-3d_23-2148397932.webp);
+}
+
+main {  
+    text-align: center;
+}
+
+main h1#title1 {
+    color:ghostwhite;
+    font-style: italic;
+    margin-bottom: -5%;
+    margin-right: 5%;
+    font-size:45px;
+    text-transform: capitalize;
+    font-family: Roboto Mono;
+    letter-spacing: 6px;
+}
+main h1#title2 {
+    color:darkorange;
+    font-style: italic;
+    margin-left: 12%;
+    font-size:80px;
+    text-transform: capitalize;
+    font-family: Gajraj One;
+    letter-spacing: 6px;
+}
+
+
+
+main input#addTasks {
+    padding: 1%;
+    cursor: default;
+    border-radius: 15px;
+    width: 20%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+    margin-right: .5%;
+    font-size:larger;
+}
+
+main input:hover {
+    transition: .5s ease-in-out;
+    background-color:azure;
+}
+
+main button {
+    width: 7%;
+    cursor: pointer;
+    height: 40px;
+    margin-right: .5%;
+    border: transparent;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+main button:hover {
+    transition: .5s ease-in-out;
+    background-color:gainsboro;
+    color: black;
+}
+
+main button#resetALL {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+}
+
+main div#tasksConteiner {
+    display:flex;
+    flex-direction: column;
+   
+}
+
+
+.ClassNewTask {
+    padding: 1%;
+    margin: auto;
+    margin-right: 10px;
+    margin-bottom: 0.5%;
+    margin-top:0.5% ;
+    border-radius: 15px;
+    width: 20%;
+    font-size:larger;
+}
+
+.ClasstaskEdit {
+    background-color:aliceblue;
+    padding:1%;
+    width: 6%;
+    border-radius: 20px;
+    margin: auto;
+    border: transparent;
+}
+
+.classTaskRemove {
+    background-color: aliceblue;
+    padding: 1%;
+    width: 6%;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+    border: transparent;
+}
+
+.ClasstaskEdit:hover, .classTaskRemove:hover {
+    background-color: gold;
+} 
+

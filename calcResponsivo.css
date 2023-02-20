@@ -1,0 +1,20 @@
+@media (max-width:900px) {
+   #corpoCalc {
+        width: 50%;
+        height: 50%;
+   }
+   
+    #numeros {
+        height: 25%;
+    }
+}
+@media (max-width:400px) {
+   #corpoCalc {
+        width: 50%;
+        height: 50%;
+   }
+   
+    #numeros {
+        height: 25%;
+    }
+}
